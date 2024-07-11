@@ -1,0 +1,167 @@
+/* LINEAR GRADIANT SITE */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left, darkcyan, rgb(149, 128, 219));
+}
+
+/* navigation */
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  text-transform: lowercase;
+  background-color: transparent;
+}
+
+/* Styles for mobile view */
+@media (max-width: 576px) {
+  .navbar-nav {
+    background-color: #333; /* Dark background color for mobile */
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff; /* White text color for better contrast */
+  }
+  .navbar-nav .nav-link:hover {
+    color: gray;
+  }
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.logo {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: light;
+  color: white;
+  height: 30px;
+  width: 60px;
+  text-decoration: none;
+  border-style: inset;
+  border-radius: 10px;
+  border: none;
+  padding: 3px 5px 3px 5px;
+  background: linear-gradient(to bottom, gray, rgb(16, 16, 16));
+}
+
+/* landing */
+
+.heading {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 12px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.porta {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150px;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  color: rgb(50, 50, 50);
+  padding: 50px;
+  text-transform: lowercase;
+  text-decoration: underline;
+  text-underline-offset: 40px;
+}
+
+.porta:first-letter {
+  font-size: 200%;
+}
+
+.dev-icon {
+  font-size: 200px;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+
+.dev-icon:hover {
+  color: white;
+}
+
+/* Adjust for small screens */
+@media (max-width: 576px) {
+  .porta {
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  .porta:first-letter {
+    font-size: 150%;
+  }
+}
+
+/* Adjust for medium screens */
+@media (max-width: 768px) {
+  .porta {
+    font-size: 70px;
+    padding: 30px;
+  }
+
+  .porta:first-letter {
+    font-size: 175%;
+  }
+
+  .dev-icon {
+    font-size: 70px;
+    padding: 30px;
+  }
+}
+
+/* Adjust for large screens */
+@media (max-width: 992px) {
+  .porta {
+    font-size: 100px;
+    padding: 40px;
+  }
+
+  .porta:first-letter {
+    font-size: 190%;
+  }
+
+  .dev-icon {
+    font-size: 100px;
+    padding: 40px;
+  }
+}
+
+/* Adjust for extra-large screens */
+@media (max-width: 1200px) {
+  .porta {
+    font-size: 120px;
+    padding: 45px;
+  }
+
+  .porta:first-letter {
+    font-size: 195%;
+  }
+  .dev-icon {
+    font-size: 120px;
+    padding: 45px;
+  }
+}
+
+/* About */
+#about {
+  height: 100vh;
+}
